@@ -1,0 +1,83 @@
+	*{
+		font-family: 'Montserrat', sans-serif;
+	}
+	body{
+		background-color: #fafafa;
+		color: #aaaaaa;
+	}
+	.margin{
+		margin: 0;
+	}
+
+	.inputForm{
+		background-color: white;
+		margin-top: 5px;
+		width: 300px;
+		border: 1px solid #e6e6e6;
+	}
+	.inputForm div, p, button{
+		text-align: center;
+		padding: 5px 20px
+	}
+	.but:hover{
+		cursor: pointer;
+		background-color: #358de0;
+	}
+	div p, a{
+		font-size: 15px;
+		text-decoration: none;
+	}
+	p a{
+		color: #bcbcbc;
+		font-weight: bold;
+	}
+	.login{
+		font-weight: bold;
+		color: #324989;
+	}
+	.login i{
+		font-weight: normal;
+	}
+	div input{
+		width: 250px;
+		height: 25px;
+	}
+	.but{
+		border-radius: 5px;
+		font-size: 13px;
+		height: 30px;
+		width: 250px;
+		color: white;
+		background-color: #324989;
+		border: none;
+	}
+	.logo{
+		color: black;
+		font-size: 30px;
+		font-weight: bold;
+		margin-top: 20px;
+	}
+	.fsociety{
+		margin: 5px 5px 0px 0px;
+		height: 520px;
+		width: 520px;
+		background-image: url(https://res.cloudinary.com/teepublic/image/private/s--q-WFBv80--/t_Preview/b_rgb:191919,c_limit,f_jpg,h_630,q_90,w_630/v1472894386/production/designs/664515_1.jpg);
+		background-repeat:  no-repeat;
+		background-size: 100%, 100%;
+		display: none;
+	}
+	.position{
+		display: flex;
+		position: absolute;
+  		top: 50%;
+  		left: 50%;
+  		transform: translate(-50%, -50%); 
+	}
+	@media (min-width: 650px) {
+	  .fsociety {
+	    display: block;
+	  }
+	}
+	.margin-but{
+		margin: 0 0 10px 0 !important;
+	}
